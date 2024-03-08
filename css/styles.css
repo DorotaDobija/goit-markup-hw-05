@@ -374,25 +374,30 @@ margin-bottom: 16px;
     gap: 24px;
 }
 .subscribe-form-input {
-    background-color: var(--background-dark);
+    background-color: transparent;
     border: 1px solid var(--white-color);
     border-radius: 4px;
     width: 264px;
     height: 40px;
-    padding: 8px 16px 8px;
+    padding-left: 16px;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-.subscribe-form-input::placeholder {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+}
+.subscribe-form-input::placeholder {
     color: var(--white-color);
 }
 .subscribe-btn {
     display: flex;
     align-items: center;
-    gap: 16px;
+    justify-content: center;
     padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+}
+.subscribe-form-icon {
+    margin-left: 16px;
 }
 /* MODAL */
 
@@ -407,10 +412,10 @@ margin-bottom: 16px;
 }
 .modal {
     position: absolute;
-    top: 80px;
+    top: 50%;
     left: 50%;
     background-color: var(--modal-bg);
-    transform: translateX(-50%);
+    transform: translate(-50% -50%);
     border-radius: 4px;
     width: 408px;
     min-height: 584px;

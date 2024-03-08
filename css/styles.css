@@ -12,7 +12,7 @@
     --main-font-family: 'Roboto', sans-serif;
     --second-font-family: "Raleway", sans-serif;
     --background-dark: #2e2f42;
-    --white-color: #fff;
+    --white-color: #ffffff;
     --focus-color: #404bbf;
     --green-color: #31d0aa;
     --border-color: #8e8f99;
@@ -384,6 +384,7 @@ margin-bottom: 16px;
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
+    color: var(--white-color);
 }
 .subscribe-form-input::placeholder {
     color: var(--white-color);

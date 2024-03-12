@@ -539,4 +539,5 @@ margin-bottom: 24px;
 .privacy-policy {
     color: #4d5ae5;
     text-decoration: underline;
+    display: inline;
 }
